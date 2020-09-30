@@ -1,0 +1,152 @@
+body{
+    background-color: #f2f2f2;
+/*    background-image: url("https://i.ibb.co/GVt4bHR/Backdrop.png")*/
+}
+
+/* LABEL CONTAINER:                        */
+/* LABEL CONTAINER:                        */
+/* LABEL CONTAINER:                        */
+/* LABEL CONTAINER:                        */
+/* LABEL CONTAINER:                        */
+
+.label-contain {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border: 3px solid none;
+    padding: 0px;
+}
+
+.label-contain img {
+    width: 100%;
+    height: rem;
+    margin: 10%;
+}
+
+.label-contain .label-desc {
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/* LAND CONTAINER:                        */
+/* LAND CONTAINER:                        */
+/* LAND CONTAINER:                        */
+/* LAND CONTAINER:                        */
+
+.credits-contain {
+    display:flex;
+    margin: auto;
+    width: 100%;
+    height: 30rem;
+/*    height: 47rem;*/
+    border: 3px solid none;
+    padding: 0px;
+    background: rgb(235, 64, 52);
+/*    background: linear-gradient(180deg, rgba(235, 64, 52, 1) 100%, rgba(255, 255, 255, 1) 100%);*/
+    background-image: url(https://i.ibb.co/rkgHD99/Attempt2.png)
+}
+
+
+.credits-contain img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.credits-contain .land-desc {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.land-contain {
+    display:flex;
+    margin: auto;
+    width: 100%;
+    height: 51.3rem;
+/*    height: 47rem;*/
+    border: 3px solid none;
+    padding: 0px;
+    background: rgb(235, 64, 52);
+/*    background: linear-gradient(180deg, rgba(235, 64, 52, 1) 100%, rgba(255, 255, 255, 1) 100%);*/
+    background-image: url(https://i.ibb.co/rkgHD99/Attempt2.png)
+}
+
+.land-contain img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.land-contain .land-desc {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+/*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*/
+
+.land-contain .land-desc .searchBar input {
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    background-color: #eb4034;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+    border-bottom-color: white;
+    transition: 1s;
+
+}
+
+
+
+
+
+.land-contain .land-desc .searchBar input:hover {
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    background-color: #eb4034;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+    border-bottom-color: white;
+    transition: .5s;
+}
+
+.land-contain .land-desc .searchBar input:focus {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #eb4034;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+    border-bottom-color: white;
+    transition: .5s;
+}
+
+.land-contain .land-desc .searchBar input::placeholder {
+    color: white;
+    opacity: 1;
+
+}
+
+/*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*//*Search Bar*/
+
+.gap .top {
+    display: flex;
+    margin: auto;
+    /*    width: 5rem;*/
+    border: 3px solid none;
+    padding: 5rem;
+}
+
+/*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*//*Sign Up*/

@@ -1,0 +1,70 @@
+body {
+    /*   background-image: url("https://i.ibb.co/2dVGhwN/Pics-Art-07-26-06-46-20.jpg")*/
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 75vh;
+}
+
+.cardlist li {
+    float: left;
+    padding: 10px;
+    margin: 30px 30px 3px 20px
+}
+
+
+.categories {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border: 3px solid none;
+    padding: 0px;
+}
+
+.categories > div {
+    flex: 1 1 calc(100% / 2);
+    text-align: center;
+}
+
+.categories > div > h2#Brain::before {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background: url('https://i.ibb.co/xJYcdDL/brain.png');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.categories > div > h2#Money::before {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background: url('https://i.ibb.co/bgw4q06/money.png');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+
+.SignUp {
+    /*    display: flex;*/
+    margin: auto;
+    width: 50%;
+    border: 3px solid none;
+    padding: 0px;
+}
+
+.SignUp h1,
+.SignUp p {
+    text-align: center;
+    /*    color: #eb4034*/
+}
